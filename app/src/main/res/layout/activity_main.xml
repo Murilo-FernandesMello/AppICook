@@ -71,11 +71,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnEntrar"
-        android:text="Regitre-se Clicando Aqui"
         android:layout_marginTop="80dp"
         android:gravity="center"
-        android:textSize="27sp"
-        android:textColor="@color/white"/>
+        android:text="Registre-se aqui"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
 
 
 
