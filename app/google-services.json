@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557775501832",
+    "project_id": "appicook-cd105",
+    "storage_bucket": "appicook-cd105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557775501832:android:65c611701cd9d469282fbd",
+        "android_client_info": {
+          "package_name": "br.ulbra.appicook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557775501832-hdlper6b20ppv6uovorp1p228gkiggjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzveCnTFIhQtESHc9K0lfDdIS2V7DTYQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557775501832-hdlper6b20ppv6uovorp1p228gkiggjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
