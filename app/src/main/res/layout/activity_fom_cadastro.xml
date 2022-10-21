@@ -17,19 +17,34 @@
         android:textColor="@color/white"
         android:textSize="30dp" />
 
-    <ImageView
-        android:id="@+id/imgUser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/user"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fotoUsuario"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:layout_below="@id/txtIcookCad"
-        android:layout_marginTop="20dp"/>
+        android:src="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/txt_mensagemErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_below="@id/btnCadastrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:id="@+id/btnFoto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imgUser"
+        android:layout_below="@id/fotoUsuario"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
